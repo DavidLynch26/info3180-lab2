@@ -1,40 +1,41 @@
 {% extends "base.html" %}
 
 {% block main %}
-<img src="{{ url_for('static', filename='profile_photo.jpeg')}}" alt="Profile photo showing spiderman pointing meme">
-<h1>David Lynch</h1>
-<p>@dlynch</p>
-<p>Portmore, Jamaica</p>
-<p>{{ date }}</p>
-<hr>
-<p>I am a dedicated software developer and back end programmer. 
-    Contact be if you would like advise or assisstance
-</p>
-<span>
-    <table>
-        <tr>
-            <td>
-                10
-            </td>
-            <td>
-                5
-            </td>
-            <td>
-                15
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Posts
-            </td>
-            <td>
-                Following
-            </td>
-            <td>
-                Followers
-            </td>
-        </tr>
-    </table>
-</span>
-<button>Follow</button>
+<div class="profile-top">
+    <img src="{{ url_for('static', filename='profile_photo.jpeg')}}" alt="Profile photo showing spiderman pointing meme">
+    <h1>David Lynch</h1>
+    <p>@dlynch</p>
+    <p>Portmore, Jamaica</p>
+    <p>{{ date }}</p>
+    <div class="profile-bottom">
+        <p>I am a dedicated software developer and back end programmer. 
+            Contact me if you would like advice or assisstance
+        </p>    
+        <table>
+            <tr>
+                <th>
+                    10
+                </th>
+                <th>
+                    5
+                </th>
+                <th>
+                    15
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Posts
+                </td>
+                <td>
+                    Following
+                </td>
+                <td>
+                    Followers
+                </td>
+            </tr>
+        </table>
+        <button>Follow</button>
+    </div>
+</div>
 {% endblock %}

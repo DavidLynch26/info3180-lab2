@@ -1,3 +1,57 @@
-body {
-    padding-top: 5rem;
+div .profile-top {
+    color: #d2e0d4;
+    margin-top: 100px;
+    padding-top: 20px;
+    border: 2px solid;
+    text-align: center;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    background-image: radial-gradient(ellipse at top, #70b07b, #569a60);
+}
+
+div .profile-top * {
+    margin: 0;
+}
+
+div .profile-top h1 {
+    color: white;
+    text-shadow: 2px 2px gray;
+}
+
+div .profile-top img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+div .profile-bottom {
+    color: gray;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+div .profile-bottom p {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+
+div .profile-bottom table {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px 0;
+    border-collapse: separate;
+}
+
+div .profile-bottom button {
+    border: none;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: #7cd423;
 }
