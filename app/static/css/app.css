@@ -1,9 +1,13 @@
 div .profile-top {
+    width: 510px;
+    height: 547px;
     color: #d2e0d4;
     margin-top: 100px;
     padding-top: 20px;
-    border: 2px solid;
+    position: relative;
     text-align: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px gray;
     border-top-left-radius: 2%;
     border-top-right-radius: 2%;
     border-bottom-left-radius: 2%;
