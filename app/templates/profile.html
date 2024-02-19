@@ -1,40 +1,26 @@
 {% extends "base.html" %}
 
 {% block main %}
-<div class="profile-top">
-    <img src="{{ url_for('static', filename='profile_photo.gif')}}" alt="Profile photo showing spiderman pointing meme">
-    <h1>David Lynch</h1>
-    <p>@dlynch</p>
-    <p>Portmore, Jamaica</p>
-    <p>{{ date }}</p>
+<div class="profile">
+    <div class="profile-top">
+        <img src="{{ url_for('static', filename='profile_photo.gif')}}" alt="Profile photo showing spiderman pointing meme">
+        <h1>David Lynch</h1>
+        <p>@dlynch</p>
+        <p>Portmore, Jamaica</p>
+        <p>{{ date }}</p>
+    </div>    
     <div class="profile-bottom">
         <p>I am a dedicated software developer and back end programmer. 
             Contact me if you would like advice or assisstance
         </p>    
-        <table>
-            <tr>
-                <th>
-                    10
-                </th>
-                <th>
-                    5
-                </th>
-                <th>
-                    15
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    Posts
-                </td>
-                <td>
-                    Following
-                </td>
-                <td>
-                    Followers
-                </td>
-            </tr>
-        </table>
+        <div class="grid-container">
+            <p>10</p>
+            <p>5</p>
+            <p>15</p>
+            <p>Posts</p>
+            <p>Following</p>
+            <p>Followers</p>
+        </div>
         <button>Follow</button>
     </div>
 </div>
