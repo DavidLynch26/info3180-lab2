@@ -1,12 +1,12 @@
-/* main .container {
+main .container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-} */
+}
 
 .profile {
-    width: 83%;
+    width: 35%;
     height: 100%;
     margin-top: 100px;
     text-align: center;
@@ -35,6 +35,11 @@
     border-width: 0px 1px 1px 1px;
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
+}
+
+.profile-bottom p {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .profile-bottom .grid-container > p:nth-child(-n+3) {
@@ -85,7 +90,7 @@
     border-top-left-radius: 2%;
     border-top-right-radius: 2%;
     text-shadow: 2px 2px gray;
-    background-image: radial-gradient(#7db787, #468850);
+    background-image: radial-gradient(#8ac193, #599762);
 }
 
 .profile-top * {
